@@ -1,0 +1,46 @@
+.leftheader-wrapper {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 99%;
+  background-color: rgb(241, 242, 245);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftheader-wrapper .leftheader {
+  /* border: 1px solid; */
+  width: 19%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftheader-wrapper .rightheader {
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 99%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rightheader .newchat {
+  /* border: 1px solid; */
+  width: 49%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightheader .option {
+  /* border: 1px solid; */
+  width: 49%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

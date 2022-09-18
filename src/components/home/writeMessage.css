@@ -1,0 +1,44 @@
+.writemessage-wrapper {
+  /* border: 1px solid; */
+  width: 100%;
+  margin: auto;
+  height: 99%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(241, 242, 245);
+}
+
+.writemessage-wrapper .emoji {
+  /* border: 1px solid; */
+  width: 4%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.writemessage-wrapper .attachment {
+  /* border: 1px solid; */
+  width: 4%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.writemessage-wrapper .text {
+  /* border: 1px solid; */
+  width: 85%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.writemessage-wrapper .microphone {
+  /* border: 1px solid; */
+  width: 4%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

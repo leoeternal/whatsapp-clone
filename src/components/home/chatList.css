@@ -1,0 +1,37 @@
+.chatlist-wrapper {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 99%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chatlist-wrapper .search {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 9%;
+}
+
+.chatlist-wrapper .chatlist {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 89%;
+  background-color: rgb(255, 255, 255);
+}
+
+.chatlist .chatbox {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 15%;
+  margin-top: 2px;
+}
+
+.chatlist .chatbox:hover {
+  cursor: pointer;
+  background-color: rgb(240, 242, 245);
+}

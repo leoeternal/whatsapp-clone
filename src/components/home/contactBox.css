@@ -1,0 +1,75 @@
+.contactbox-wrapper {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contactbox-wrapper .contactbox-left {
+  /* border: 1px solid; */
+  width: 20%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactbox-wrapper .contactbox-right {
+  /* border: 1px solid; */
+  border-bottom: 1px solid rgb(234, 237, 239);
+  width: 78%;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contactbox-right .nametime-container {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 39%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nametime-container .name {
+  /* border: 1px solid; */
+  width: 40%;
+  height: 99%;
+  display: flex;
+  align-items: center;
+}
+
+.nametime-container .name p {
+  font-weight: 500;
+}
+
+.nametime-container .time {
+  /* border: 1px solid; */
+  width: 40%;
+  height: 99%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nametime-container .time p {
+  color: rgb(119, 131, 140);
+}
+
+.contactbox-right .latestmessage {
+  /* border: 1px solid; */
+  width: 99%;
+  height: 59%;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contactbox-right .latestmessage p {
+  color: rgb(116, 118, 129);
+}
